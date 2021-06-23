@@ -531,7 +531,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'nx-review-dashboard', component: _nx_review_dashboard_nx_review_dashboard_component__WEBPACK_IMPORTED_MODULE_1__["NxReviewDashboardComponent"] }
+    { path: '', component: _nx_review_dashboard_nx_review_dashboard_component__WEBPACK_IMPORTED_MODULE_1__["NxReviewDashboardComponent"] }
 ];
 class AppRoutingModule {
 }

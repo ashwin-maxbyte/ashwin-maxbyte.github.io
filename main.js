@@ -292,17 +292,17 @@ class NxReviewDashboardComponent {
             { month: 'Jun', sales: 58 }
         ];
         this.pieDataSource = [
-            { name: 'Apple', value: 37, text: '37%' },
-            { name: 'Orange', value: 33, text: '33%' },
-            { name: 'Grapes', value: 17, text: '17%' },
-            { name: 'Banana', value: 13, text: '13%' },
+            { name: 'Plant Issue', value: 37, text: '37%' },
+            { name: 'Leak Test Failure', value: 33, text: '33%' },
+            { name: 'Air Chamber Leakage', value: 17, text: '17%' },
+            { name: 'Paint Rundown', value: 13, text: '13%' },
         ];
     }
     ngOnInit() {
     }
 }
 NxReviewDashboardComponent.ɵfac = function NxReviewDashboardComponent_Factory(t) { return new (t || NxReviewDashboardComponent)(); };
-NxReviewDashboardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NxReviewDashboardComponent, selectors: [["app-nx-review-dashboard"]], decls: 19, vars: 6, consts: [["id", "header"], [2, "margin-left", "1em"], ["id", "main"], [1, "chart-row"], [1, "chart-tile"], ["xName", "month", "yName", "year", 3, "dataSource"], ["xName", "name", "yName", "value", "title", "Fruit Sales", "labelName", "text", "innerRadius", "60%", 3, "dataSource"]], template: function NxReviewDashboardComponent_Template(rf, ctx) { if (rf & 1) {
+NxReviewDashboardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NxReviewDashboardComponent, selectors: [["app-nx-review-dashboard"]], decls: 19, vars: 6, consts: [["id", "header"], [2, "margin-left", "1em"], ["id", "main"], [1, "chart-row"], [1, "chart-tile"], ["xName", "month", "yName", "year", 3, "dataSource"], ["xName", "name", "yName", "value", "title", "Rejections", "labelName", "text", "innerRadius", "60%", 3, "dataSource"]], template: function NxReviewDashboardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-sub-layout");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](1, 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
